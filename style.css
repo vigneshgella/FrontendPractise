@@ -1,0 +1,182 @@
+body{
+    background:#fc9547;
+    margin:0;
+    font-family:sans-serif;
+}
+
+/* Common */
+
+.hero,
+.about,
+.booking,
+.menu{
+    padding:50px;
+}
+
+.hero,
+.about{
+    display:flex;
+    gap:40px;
+}
+
+.hero,
+.menu{
+    background:#1E1A17;
+    color:white;
+}
+
+.about,
+.booking,
+.card{
+    background:#2B1F1A;
+    color:white;
+}
+
+/* Welcome */
+
+.welcome{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:white;
+    font-size:30px;
+}
+
+/* Navbar */
+
+.nav{
+    display:flex;
+    background:#1E1A17;
+    padding:20px;
+}
+
+.nav a{
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    padding:20px;
+}
+
+.nav a:hover,
+button:hover{
+    color:lime;
+    background:orange;
+}
+
+/* Hero */
+
+.hero-text,
+.hero-image,
+.about-text,
+.about-images{
+    width:50%;
+}
+
+.hero-text{
+    font-size:20px;
+}
+
+.hero-text p{
+    font-size:25px;
+}
+
+.hero-image img,
+.about-images img,
+.card img{
+    width:100%;
+    border-radius:20px;
+}
+
+/* Buttons */
+
+button{
+    padding:15px 25px;
+    border:none;
+    background:#fc9547;
+    color:white;
+    font-size:18px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+/* About */
+
+.about-text h1,
+.menu h1,
+.booking h1{
+    font-size:45px;
+}
+
+.about-text p{
+    font-size:20px;
+    line-height:2;
+}
+
+.about-images{
+    display:flex;
+    gap:20px;
+}
+
+.about-images img{
+    width:50%;
+}
+
+/* Menu */
+
+.menu h1,
+.booking h1{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.menu-cards{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+}
+
+.card{
+    padding:20px;
+    border-radius:20px;
+    text-align:center;
+    transition:.5s;
+}
+
+.card img{
+    height:250px;
+}
+
+.card p{
+    font-size:22px;
+}
+
+/* Booking */
+
+.booking form{
+    width:60%;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+}
+
+.booking label{
+    margin:15px 0 8px;
+    font-size:20px;
+}
+
+.booking input,
+.booking textarea{
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    font-size:18px;
+}
+/* Footer */
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
